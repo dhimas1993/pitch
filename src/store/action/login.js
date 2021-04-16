@@ -7,7 +7,6 @@ import Swal from 'sweetalert2'
 const cookie = new Cookie();
 
 export const loginUser  = ( payload ) => (dispatch) => {
-// export const loginUser  = async ( payload, dispatch ) => {
     console.log("asuk", payload)
     return (
         axios.post(`${process.env.REACT_APP_BASE_URL}/users/login`, payload )
