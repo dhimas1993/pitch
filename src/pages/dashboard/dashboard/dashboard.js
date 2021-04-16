@@ -111,7 +111,7 @@ class Dashboard extends Component{
     }
 
     render(){
-      if(this.props.user.Auth.email !== ''){
+      // if(this.props.user.Auth.email !== ''){
         return (
           <div>
             <Sidebar {...this.props}/>
@@ -355,9 +355,9 @@ class Dashboard extends Component{
             </div>
           </div>
         );
-      } else {
-        return <Redirect to='/'/>
-      }
+      // } else {
+      //   return <Redirect to='/'/>
+      // }
     }
 }
 
