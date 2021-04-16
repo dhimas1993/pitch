@@ -9,7 +9,7 @@ const cookie = new Cookie();
 export const loginUser  = ( payload ) => (dispatch) => {
     console.log("asuk", payload)
     return (
-        axios.post(`${process.env.REACT_APP_BASE_URL}/users/login`, payload )
+        axios.post(`http://cms-pitch.herokuapp.com/api/v1/users/login`, payload )
         .then(res => {
             if(res.data === "FAILED"){
                 Swal.fire({
