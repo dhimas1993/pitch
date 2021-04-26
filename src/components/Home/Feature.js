@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import $ from 'jquery';
 import Feature1 from '../../assets/images/fe1.png'
 import Feature2 from '../../assets/images/fe2.png'
@@ -7,7 +7,6 @@ import Feature3 from '../../assets/images/fe3.png'
 import Feature4 from '../../assets/images/fe4.png'
 import Feature5 from '../../assets/images/fe5.png'
 import Feature6 from '../../assets/images/fe6.png'
-import logo from '../../assets/images/logo.png'
 
 class Feature extends Component{
     componentDidMount() {

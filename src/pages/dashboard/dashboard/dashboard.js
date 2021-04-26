@@ -27,13 +27,12 @@ class Dashboard extends Component{
             slider: '',
             pitch: '',
             news: '',
-            // id: Cookies.get('username'),
             data : [
               sd1, sd1, ,sd1,sd1, sd1
             ],
             options : {
               loop: true,
-              autoplayTimeout: 3000,
+              autoplayTimeout: 6000,
               autoplay: true,
               touchDrag: true,
               mouseDrag: true,

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import fitvids from 'fitvids';
 
 class Header extends Component{
@@ -20,12 +20,10 @@ class Header extends Component{
                                 <h3 className="heading-text-ban-info">
                                     You are now ready to get connected to Top Investor, get your Pitch Deck ready, and access to the curated tools to help your startup grow.
                                 </h3>
-                                <form action="#">
-                                    <div className="form-email-header-ban">
-                                        <input type="text" placeholder="Enter your email address"/>
-                                    </div>
-                                    <input type="submit" value="Get Started" className="bt-submit-email-address"/>
-                                </form>
+                                <div className="form-email-header-ban">
+                                    <input type="text" placeholder="Enter your email address"/>
+                                </div>
+                                <input type="submit" value="Get Started" className="bt-submit-email-address"/>
                             </div>
                         </Col>
                         <Col lg={7}>

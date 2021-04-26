@@ -69,16 +69,7 @@ function Sidebar (params) {
                 <div className="clear" />
               </a>
             </li>
-            <li>
-              <a href="#">
-                <div className="icon-sub-menu-p-l">
-                  <img src={ischedule} className="imenu-normal" alt="" />
-                  <img src={ischeduleActive} className="imenu-active" alt="" />
-                </div>
-                <div className="text-sub-menu-p-l">Schedule</div>
-                <div className="clear" />
-              </a>
-            </li>
+            
           </ul>
         </div>
       )

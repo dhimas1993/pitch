@@ -20,7 +20,7 @@ class Menutop extends Component {
     componentDidMount() {
         this._isMounted = true;
 
-        if (this.props.PmenuStyle == 'menu1') {
+        if (this.props.PmenuStyle === 'menu1') {
             this.setState({
                 menuStyle: 'wrap-main-menu wrap-main-menu-home'
             })
@@ -32,7 +32,7 @@ class Menutop extends Component {
         document.addEventListener('scroll', () => {
             if (this._isMounted) {
                 if (window.scrollY > 20) {
-                    if (this.props.PmenuStyle == 'menu1') {
+                    if (this.props.PmenuStyle === 'menu1') {
                         this.setState({
                             menuStyle: 'wrap-main-menu wrap-main-menu-home wrap-main-menu-active'
                         })
@@ -42,7 +42,7 @@ class Menutop extends Component {
                         })
                     }
                 } else {
-                    if (this.props.PmenuStyle == 'menu1') {
+                    if (this.props.PmenuStyle === 'menu1') {
                         this.setState({
                             menuStyle: 'wrap-main-menu wrap-main-menu-home'
                         })

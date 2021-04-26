@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Marquee, { Motion, randomIntFromInterval } from "react-marquee-slider";
-import times from "lodash/times";
+import Marquee, { } from "react-marquee-slider";
 import logo1 from '../../assets/images/ac logo.png'
 import logo2 from '../../assets/images/alpha jwc venture logo.png'
 import logo3 from '../../assets/images/bri ventures logo.png'

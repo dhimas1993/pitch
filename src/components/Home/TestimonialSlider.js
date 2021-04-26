@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel2';
 import ava1 from '../../assets/images/tes1.jpg'
 import ava2 from '../../assets/images/tes2.png'

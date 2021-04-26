@@ -16,10 +16,9 @@ export default function MenubarTop(props){
     const [mount, setMount] = useState(false)
 
     const refreshPage = () => { <Redirect to="/" />; }
-    // const aidi = useSelector(state => state.Auth._id);
-    // console.log("_id", aidi)
     const id = useSelector(state => state.Auth._id)
-    const mounted = useRef(false);
+
+    let path = window.location.pathname
 
     const getUser = async (ID) => {
       try {
@@ -81,8 +80,10 @@ export default function MenubarTop(props){
           {/* breadcumb */}
           <div className="wrap-breadcumb-bar-top-p">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li>Dashboard</li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li> {path.slice(1)} </li>
             </ul>
           </div>
         </div>

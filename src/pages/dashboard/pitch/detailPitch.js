@@ -334,7 +334,6 @@ class Dashboard_Pitch extends Component{
                     onHide={() => this.setState({show : false})}
                 >
                     <Modal.Body>
-                        
                         <div className="modal-content">
                             <div className="bt-close-popup-pitch" data-dismiss="modal">
                                 <i className="fa fa-close" />
@@ -421,20 +420,20 @@ class Dashboard_Pitch extends Component{
                                         }
                                     </div>
                                     <div className="wrap-cta-button-req-pitch-follow">
-                                        <a href="javascript:void(0)" className="bt-cta-detail-pitch-follow">
+                                        {/* <a href="javascript:void(0)" className="bt-cta-detail-pitch-follow">
                                             <i className="fa fa-plus" /> Follow
-                                        </a>
-                                    <div className="followed-button-y">Followed</div>
-                                        <a onClick={() => this.setState({show : true})} className="bt-cta-detail-pitch-request" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalrequestpitch">
-                                            Request Pitch
-                                        </a>
-                                        {
-                                            this.renderPitchdeck()
-                                        }
-                                            {/* this.state.modal == 1 ? this.renderPitchdeck()
-                                                : this.state.modal == 2 ? this.renderDone()
-                                                : null */}
-                                    </div>
+                                        </a> */}
+                                        <div className="followed-button-y">Followed</div>
+                                            <a onClick={() => this.setState({show : true})} className="bt-cta-detail-pitch-request" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalrequestpitch">
+                                                Request Pitch
+                                            </a>
+                                            {
+                                                this.renderPitchdeck()
+                                            }
+                                                {/* this.state.modal == 1 ? this.renderPitchdeck()
+                                                    : this.state.modal == 2 ? this.renderDone()
+                                                    : null */}
+                                        </div>
                                 </div>
                                 <div className="row-pitch-2-col-sec-dir">
                                     <div className="row">

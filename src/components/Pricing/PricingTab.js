@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import Bgpage from '../../assets/images/bgp6.png'
 import { Link } from 'react-router-dom';
 import IconPitch from '../../assets/images/iconpitch.png'
 import Icon1 from '../../assets/images/pri1.png'
