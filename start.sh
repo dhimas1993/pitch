@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/nodejs/PitchUp
+cd /home/nodejs/pitch
 yarn start
